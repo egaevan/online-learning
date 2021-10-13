@@ -1,0 +1,10 @@
+{
+    "database": {
+      "host": "localhost",
+      "port": 3306,
+      "name": "online-learning",
+      "user": "root",
+      "password": "root",
+      "database" : "online_learning"
+    }
+}

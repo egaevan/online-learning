@@ -1,0 +1,34 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Custom
+*.iml
+.idea/
+.vscode/
+.DS_Store
+vendor/
+
+.ssh
+
+
+
+# Sonarqube
+*.scannerwork
+*coverage.out
+*report.json
+
+*.golangci.yml
+
+# Config
+/files/etc/restriction-engine/development/config.json
+/files/etc/toko-configuration/restriction-engine.development.json
+/files/etc/toko-credentials/restriction-engine.development.json
